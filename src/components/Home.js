@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const Home = () => {
   return (
-    <div className="container-fluid">
+    <div>
       <Navbar />
       <div className="container mt-5">
         <h1 className="display-5 text-white">Alive Botswana</h1>
