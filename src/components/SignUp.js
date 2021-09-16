@@ -36,7 +36,7 @@ const SignUp = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-          <img src="https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" id="bg" className="img-responsive" />
+          <img src="https://images.pexels.com/photos/5452255/pexels-photo-5452255.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" id="bg" className="img-responsive mt-4" />
           </div>
           <div className="col-md-6">
           <form
