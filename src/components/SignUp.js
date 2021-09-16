@@ -35,9 +35,13 @@ const SignUp = () => {
       <Navbar />
       <div className="container">
         <div className="row">
+          <div className="col-md-6">
+          <img src="https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" id="bg" className="img-responsive" />
+          </div>
+          <div className="col-md-6">
           <form
             onSubmit={handleSubmit}
-            className="full-form col-md-6 col-10 offset-md-3 mt-3 offset-1 px-md-5 py-5 px-3"
+            className="full-form mt-4 py-5 px-3"
           >
             <h1 className="text-center">Sign Up</h1>
             <div className="mb-3">
@@ -88,6 +92,7 @@ const SignUp = () => {
               Already a member? <Link to="/login">Login</Link>
             </p>
           </form>
+          </div>
         </div>
         {/* {isSignedUp && (
         <div className="text-center h4 mt-3 text-light">

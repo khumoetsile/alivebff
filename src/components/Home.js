@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div className="container mt-5">
-        <h1 className="display-5 text-white">Alive Botswana</h1>
+        <img width="900" src="" />
       </div>
     </div>
   );
